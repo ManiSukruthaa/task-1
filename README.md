@@ -49,8 +49,9 @@ The script produces the following plots:
 # MATLAB Task-1:
 
 ## Question-1 
-### The first question was initialising a random 5*5 matrix and changing the values of each element based on the instructions given.
-### This is the output of first program.
+The first question was initialising a random 5*5 matrix and changing the values of each element based on the instructions given.
+This is the output of first program:
+<img width="950" height="460" alt="image" src="https://github.com/user-attachments/assets/3cbd6943-8653-40b3-adee-21b0322532a2" />
 
 
 ---
