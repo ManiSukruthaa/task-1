@@ -14,7 +14,7 @@
 <img width="352" height="268" alt="que2" src="https://github.com/user-attachments/assets/eb89075f-c795-4dfa-baa1-fc77215b4f00" />
 
 
-# Question-3
+## Question-3
 - The third question was plotting sine, cosine and tangent functions using subplots.
 - In this question I generated a 1D matrix to store values from -2pi to 2pi with pi/2 spacing.
 ### This is the output of third program:
