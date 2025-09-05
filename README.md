@@ -1,62 +1,21 @@
-# MATLAB Assignment - Trigonometric Functions (Question 3)
-
-This project solves **Question 3** from the assignment:  
-Create a 1-D matrix `X` with values from `-2π` to `2π` (interval of `π/2`) and plot the **Sine, Cosine, and Tangent functions** using subplots in MATLAB.
-
----
-
-## 📌 Problem Statement
-- Generate values of `X` from `-2π` to `2π` using `linspace`.  
-- Use **subplots** to plot:
-  1. Sine function (`sin(X)`)  
-  2. Cosine function (`cos(X)`)  
-  3. Tangent function (`tan(X)`)  
-- Add proper **titles, labels, legends, and axis limits**.  
-- Ensure tangent plot handles asymptotes properly.  
-
----
-
-## 🛠️ Approach
-1. Use `linspace(-2*pi, 2*pi, 9)` to create evenly spaced points.  
-2. Plot each function (`sin`, `cos`, `tan`) in a **separate subplot**.  
-3. Add:
-   - `xlabel`, `ylabel` for axes  
-   - `title` for each plot  
-   - `legend` for clarity  
-   - `sgtitle` for the whole figure  
-4. Restrict `xlim` to `[-2π, 2π]` and `ylim` to `[-1, 1]` where necessary.  
-
----
-
-## 🚀 How to Run
-1. Clone or download this repository.  
-2. Open the file `trig_functions.m` in **MATLAB** or **GNU Octave**.  
-3. Run the script.  
-4. A figure window will appear with 3 subplots: sine, cosine, and tangent.  
-
----
-
-## 📊 Expected Output
-The script produces the following plots:
-
-- **Sine Function** (black)  
-- **Cosine Function** (blue)  
-- **Tangent Function** (red)  
-
-### Example:
-![Trigonometric Plots](q3_plot.png)
-
 # MATLAB Task-1:
 
 ## Question-1 
-The first question was initialising a random 5*5 matrix and changing the values of each element based on the instructions given.
-This is the output of first program:
-<img width="950" height="460" alt="image" src="https://github.com/user-attachments/assets/3cbd6943-8653-40b3-adee-21b0322532a2" />
+- The first question was initialising a random 5*5 matrix and changing the values of each element based on the instructions given.
+- Then I found the sum of all elements in the modified matrix
+### This is the output of first program:
+![que1](https://github.com/user-attachments/assets/eb6234e0-7cb2-4c3f-a201-e46f08edefaa)
 
 
----
+## Question-2
+- The second question was initialising a 10*10 matrix with random values between 1 to 100.
+- Based on the values generated I assigned the colors and plotted the matrix.
+### This is the output of second program:
+<img width="352" height="268" alt="que2" src="https://github.com/user-attachments/assets/eb89075f-c795-4dfa-baa1-fc77215b4f00" />
 
-## 📂 Files
-- `trig_functions.m` → MATLAB script for Question 3  
-- `README.md` → Documentation  
-- `q3_plot.png` → Example output plot (screenshot from MATLAB)  
+
+# Question-3
+- The third question was plotting sine, cosine and tangent functions using subplots.
+- In this question I generated a 1D matrix to store values from -2pi to 2pi with pi/2 spacing.
+### This is the output of third program:
+ ![que3](https://github.com/user-attachments/assets/870cc06f-5a14-483a-8e36-a1a06ce888e3)
